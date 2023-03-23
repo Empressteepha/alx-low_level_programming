@@ -1,9 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * prints alphabets in lower case, use putchar only twice
- *
+ * print_alphabet - prints all alphabets in lower case
  * Return: Always 0
  */
 
