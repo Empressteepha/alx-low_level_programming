@@ -3,7 +3,7 @@
 int actual_sqrt_recursion(int n, int i);
 
 /**
- * _sqrt_recursion -returns the square 
+ * _sqrt_recursion -returns the square
  * root of a number
  * @n: the number whosde square
  * root is calculated
@@ -18,13 +18,13 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * actual_sqrt_recursion - recurses to find the 
+ * actual_sqrt_recursion - recurses to find the
  * square root of a number
  * @n: number whose square root is calculated
  * @i: the iterator
  * Return: the sqaure root of n
  */
- int actual_sqrt_recursion(int n, int i)
+int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
